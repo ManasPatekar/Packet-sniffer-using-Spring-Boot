@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080; /* Dark Blue */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#packets-container {
+    background-color: #ffffff; /* White */
+    border: 1px solid #004080; /* Dark Blue border */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.packet {
+    border-bottom: 1px solid #004080; /* Dark Blue border */
+    padding: 0.5rem 0;
+}
+
+button {
+    background-color: #cc0000;; /* Dark Blue */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000; /* Even darker blue */
+}
